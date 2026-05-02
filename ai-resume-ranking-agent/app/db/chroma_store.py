@@ -28,7 +28,7 @@ _CHROMA_DIR.mkdir(parents=True, exist_ok=True)
 _client = chromadb.PersistentClient(path=str(_CHROMA_DIR))
 
 # Collection name
-COLLECTION_NAME = "resume_chunks"
+COLLECTION_NAME = "resume_chunks_v2"
 
 
 def _get_collection():
